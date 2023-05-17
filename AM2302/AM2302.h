@@ -1,8 +1,8 @@
 /*
  * AM2302.h
- *
  *  Created on: May 11, 2023
- *      Author: user
+ *      Author: korea1028
+ *       Board: NUCLEO-F429ZI
  */
 
 #ifndef INC_AM2302_H_
