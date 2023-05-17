@@ -1,8 +1,8 @@
 /*
- * DHT22.c
- *
+ * AM2302.c
  *  Created on: May 11, 2023
- *      Author: user
+ *      Author: korea1028
+ *       Board: NUCLEO-F429ZI
  */
 
 #include "stm32f4xx_hal.h"
