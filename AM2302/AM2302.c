@@ -35,7 +35,7 @@ uint8_t AM2302_ReadData(AM2302DATA *pData) {
 	pData->AM2302_Port->BSRR = pData->AM2302_Pin; //Set high
 	HAL_Delay(5);
 	pData->AM2302_Port->BSRR = pData->AM2302_Pin << 16; //Set low
-	HAL_Delay(1); //Wait 1ms
+	HAL_Delay(20); //Wait > 1 ms, DHT22: > 1ms, DHT11: > 18ms
 	pData->AM2302_Port->BSRR = pData->AM2302_Pin; //Set high
 
 	// Set AM2302_DATA Pin for input
